@@ -175,8 +175,10 @@ def Floating_point(number, bin_size):
 #------------------------- POSIT ----------------------------
 
 
+def posit (number, bin_size):
+  res =2 +4
 
-
+  return res
 
 
 
