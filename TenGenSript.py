@@ -26,7 +26,6 @@ def main():
   #print (sum_function(2,3))
 
 
-
   # MAIN
   # generation of the tensor values
   Z = generate_tensor_values(args.Tshape_in)
@@ -66,6 +65,7 @@ def generate_tensor_values(shape_str):
 def sum_function(a,b):
   return a+b
 
+#
 # ------------------  FIXED POINT ------------------
 
 def float_to_Fixed(number, bin_size, places = 30):
